@@ -4,6 +4,7 @@
 <%@ page import="com.javaex.vo.GuestVo" %>
 
 <%
+	request.setCharacterEncoding("UTF-8");
 	String name = request.getParameter("name");
 	String password = request.getParameter("password");
 	String content = request.getParameter("content");
